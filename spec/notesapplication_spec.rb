@@ -1,4 +1,4 @@
-require_relative '../NotesApplication.rb'
+require_relative '../notesapplication.rb'
 require 'yaml'
 
 require 'spec_helper'

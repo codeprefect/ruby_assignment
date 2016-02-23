@@ -1,4 +1,4 @@
-require_relative 'NotesApplication'
+require_relative 'notesapplication'
 
 puts "Welcome to Note Taker written by IMAM Mubarak\nPress crtl-Z to exist(at any stage)\n"
 #Takes in author name
