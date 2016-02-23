@@ -30,8 +30,7 @@ while situation
       Author1.list
 
     when 3
-      print "Please enter the note ID you want to get: "
-      note_id = gets
+      note_id = nil
       until note_id.is_a?(Fixnum) do
         print "Please enter an integer for the note ID you want to get: "
         note_id = Integer(gets) rescue nil
@@ -39,8 +38,7 @@ while situation
       puts Author1.get(note_id)
 
     when 4
-      print "Please enter the note ID you want to edit: "
-      note_id = gets
+      note_id = nil
       until note_id.is_a?(Fixnum) do
         print "Please enter an integer for the note ID you want to edit: "
         note_id = Integer(gets) rescue nil
@@ -48,8 +46,7 @@ while situation
       Author1.edit(note_id)
         
     when 5
-      print "Please enter the note ID you want to delete: "
-      note_id = gets
+      note_id = nil
       until note_id.is_a?(Fixnum) do
         print "Please enter an integer for the note ID you want to delete: "
         note_id = Integer(gets) rescue nil
